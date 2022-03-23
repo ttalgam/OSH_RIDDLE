@@ -8,7 +8,7 @@ image.addEventListener('load', function(){
     canvas.height = 600;
 
     let particlesArray = [];
-    const numberOfParticles = 16000;
+    const numberOfParticles = 20000;
     const detail = 1;
 
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
@@ -36,7 +36,7 @@ image.addEventListener('load', function(){
             this.y =  0;
             //this.prevX = this.x;
             this.speed = 0;
-            this.velocity = Math.random() * 0.9;
+            this.velocity = Math.random() * 0.99;
             this.size = Math.random() * 6 + .1;
         }
         update () {
@@ -47,7 +47,7 @@ image.addEventListener('load', function(){
 			console.error(error);
 			throw 'myException';
 		}
-            let movement = (2.5 - this.speed) + this.velocity;
+            let movement = (2.4 - this.speed) + this.velocity;
             this.y += movement;
             if (this.y >= canvas.height) {
                 this.y = 0;
