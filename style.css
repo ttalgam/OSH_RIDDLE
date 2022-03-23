@@ -4,44 +4,19 @@
     box-sizing: border-box;
     background: black;
 }
-/*
-canvas {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 572px; 
-    height: 352px;
-    transform: translate(-50%, -50%);
+
+a{
+  color: #64ffda;
 }
-footer, article {
-  font-family: monospace;
-  width: 100%;
-  color: white;
-  font-size: 15px;
-  margin-left: 5px;
-  text-shadow: 1px 1px 1px #737373; 
-}
-article {
-  padding: 10px;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 95%;
-  text-align: left;
-  padding-bottom: 15px;
-}
-footer a{
-  color: orangered;
-}
-article {
-  width: 48%;
-  font-size: 15px;
-}
-*/
-p {
+h1 {
  text-align: center;
  line-height: 100px;
+ color:white;
+
+}
+p {
+ text-align: center;
+ line-height: 30px;
  color:white;
 
 }
@@ -56,4 +31,69 @@ canvas {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.cyber-text {
+
+  text-shadow: -0.35rem -0.35rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  animation-name: CyberText;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes CyberText {
+  0% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  9% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  10% {
+    text-shadow: -0.35rem -0.35rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  11% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  19% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  20% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0.35rem -0.35rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  21% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  30% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  31% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0.35rem 0.35rem 1px rgba(0, 0, 255, 0.7);
+  }
+  32% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  39% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  40% {
+    text-shadow: 0.35rem -0.35rem 1px rgba(255, 0, 0, 0.7), 0rem -0.35rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  41% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  59% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  60% {
+    text-shadow: 0.35rem -0.35rem 1px rgba(255, 0, 0, 0.7), 0rem -0.35rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  75% {
+    text-shadow: 0.35rem -0.35rem 1px rgba(255, 0, 0, 0.7), 0rem -0.35rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  76% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
+  100% {
+    text-shadow: 0rem 0rem 1px rgba(255, 0, 0, 0.7), 0rem 0rem 1px rgba(0, 255, 0, 0.7), 0rem 0rem 1px rgba(0, 0, 255, 0.7);
+  }
 }
