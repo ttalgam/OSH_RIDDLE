@@ -36,7 +36,7 @@ image.addEventListener('load', function(){
             this.y =  0;
             //this.prevX = this.x;
             this.speed = 0;
-            this.velocity = Math.random() * 1.2;
+            this.velocity = Math.random() * 2;
             this.size = Math.random() * 6 + .1;
         }
         update () {
